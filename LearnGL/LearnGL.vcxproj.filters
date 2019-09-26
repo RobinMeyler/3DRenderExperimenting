@@ -27,12 +27,27 @@
     <ClCompile Include="..\src\glad.c">
       <Filter>Source Files\Glad</Filter>
     </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Vertex.txt">
       <Filter>Source Files\GLSL Txt files</Filter>
     </Text>
     <Text Include="Frag.txt">
+      <Filter>Source Files\GLSL Txt files</Filter>
+    </Text>
+    <Text Include="FragLight.txt">
+      <Filter>Source Files\GLSL Txt files</Filter>
+    </Text>
+    <Text Include="FragLightother.txt">
+      <Filter>Source Files\GLSL Txt files</Filter>
+    </Text>
+    <Text Include="VertexLight.txt">
+      <Filter>Source Files\GLSL Txt files</Filter>
+    </Text>
+    <Text Include="VertexLightother.txt">
       <Filter>Source Files\GLSL Txt files</Filter>
     </Text>
   </ItemGroup>
