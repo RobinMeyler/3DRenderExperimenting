@@ -19,6 +19,12 @@
     <Filter Include="Source Files\Glad">
       <UniqueIdentifier>{67d14d21-189d-4566-87aa-142d7818ba98}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GLSL Txt files\Fragment">
+      <UniqueIdentifier>{8fe13200-aea3-4502-87d4-28355fb052bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLSL Txt files\Vertex">
+      <UniqueIdentifier>{b7ac2b36-7930-4d46-83a2-7c7c620c885b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -32,23 +38,23 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Vertex.txt">
-      <Filter>Source Files\GLSL Txt files</Filter>
+    <Text Include="FragLight.txt">
+      <Filter>Source Files\GLSL Txt files\Fragment</Filter>
     </Text>
     <Text Include="Frag.txt">
-      <Filter>Source Files\GLSL Txt files</Filter>
-    </Text>
-    <Text Include="FragLight.txt">
-      <Filter>Source Files\GLSL Txt files</Filter>
+      <Filter>Source Files\GLSL Txt files\Fragment</Filter>
     </Text>
     <Text Include="FragLightother.txt">
-      <Filter>Source Files\GLSL Txt files</Filter>
+      <Filter>Source Files\GLSL Txt files\Fragment</Filter>
+    </Text>
+    <Text Include="Vertex.txt">
+      <Filter>Source Files\GLSL Txt files\Vertex</Filter>
     </Text>
     <Text Include="VertexLight.txt">
-      <Filter>Source Files\GLSL Txt files</Filter>
+      <Filter>Source Files\GLSL Txt files\Vertex</Filter>
     </Text>
     <Text Include="VertexLightother.txt">
-      <Filter>Source Files\GLSL Txt files</Filter>
+      <Filter>Source Files\GLSL Txt files\Vertex</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
